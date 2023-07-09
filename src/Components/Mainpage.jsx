@@ -10,7 +10,7 @@ const Mainpage = () => {
     const [Displaycity,setDisplaycity]=useState('NewYork');
     
     const getcity= (e) =>{
-        const temp=e.target.value;
+        const temp=e.target.value.trim();
         Setcity(temp.charAt(0).toUpperCase() + temp.slice(1));
     }
     const API_KEY='4f8728e3263d626c08313d8a00c24694';
