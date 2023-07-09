@@ -50,7 +50,7 @@ const Mainpage = () => {
   return (
     <Card
       style={{
-        height: "700px",
+        height: "750px",
         width: "600px",
         backgroundColor: "skyblue",
         padding: "10px",
