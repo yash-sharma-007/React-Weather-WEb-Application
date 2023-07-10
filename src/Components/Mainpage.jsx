@@ -28,7 +28,6 @@ const Mainpage = () => {
               alert("Please Enter Valid City Name");
             }
             else{
-              console.log(data);
               setDisplaycity(City);
               setWeather(Weather=>({
                 ...Weather,
